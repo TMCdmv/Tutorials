@@ -1,10 +1,14 @@
+"""
+Simple use of statsmodels library
+"""
+
 import numpy as np
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
 # Ordinary least squares using formulas
-dat = sm.datasets.get_rdataset("Guerry", "HistData").data
-results = smf.ols("Lottery ~ Literacy + np.log(Pop1831)", data=dat).fit()
+DAT = sm.datasets.get_rdataset("Guerry", "HistData").data
+results = smf.ols("Lottery ~ Literacy + np.log(Pop1831)", data=DAT).fit()
 print(results.summary())
 
 # Ordinary least squares using numpy arrays instead of formulas

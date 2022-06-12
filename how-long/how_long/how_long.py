@@ -3,7 +3,6 @@ Pythom programming example
 """
 
 from functools import wraps
-from re import I
 import pendulum
 
 

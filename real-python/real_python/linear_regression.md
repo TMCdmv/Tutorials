@@ -4,7 +4,7 @@ Regression creates a model representing a relationship between a set of variable
 - The variables of interest, i.e. the one being forecast, is called the dependent variable. It is also called the response or output. This variable is designated as $y$
 - The other variables or the independent variables. They are also called inputs, regressors, or predictors.  A set $x = x_1, x_2, ..., x_r)$ represent these independent variables or predictors.
 
-A line is *fitted* to the above data using the formula:
+A line is *fitted* to the above DATa using the formula:
 
 $$
 y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_rx_r + \epsilon
